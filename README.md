@@ -1,12 +1,17 @@
-# Brain Connectivity Visualization 🧠📊
+# Brain Connectivity Visualization 📊
 
 ## Overview
-This project demonstrates the ability to visualize complex neuroimaging data, specifically functional connectivity matrices. This is a core task in the **Neuroinformatics and Brain Connectivity Lab** for identifying patterns in fMRI data.
+This project focuses on the interpretation and dissemination of complex neuroimaging data. It features a Python-based pipeline for generating high-fidelity functional connectivity matrices, a standard visualization tool for fMRI and brain connectivity research.
 
 ## Technical Stack
-- **Python:** Data processing and matrix manipulation.
-- [cite_start]**NumPy & Pandas:** Managing regional correlation data.
-- [cite_start]**Seaborn & Matplotlib:** Creating publication-quality heatmaps.
+* **Data Manipulation:** NumPy & Pandas for managing regional correlation matrices.
+* **Visualization:** Seaborn & Matplotlib for creating publication-quality heatmaps.
+* **Environment:** Jupyter Notebooks for reproducible research workflows.
 
 ## Research Context
-This heatmap represents the correlation between 10 distinct brain regions. High values (red) indicate strong functional coupling, while lower values (blue) suggest independent regional activity. Such visualizations are essential for **data interpretation and dissemination** to senior investigators.
+By visualizing regional correlations, this project demonstrates the ability to assist senior project members with data visualization and the preparation of study reports. The focus is on creating clear, interpretable "Heatmaps" that highlight strong functional coupling between distinct brain regions.
+
+## How to Use
+1. Clone the repository.
+2. Open the Jupyter Notebook or run `connectivity_analysis.py`.
+3. View the generated `connectivity_heatmap.png`.
